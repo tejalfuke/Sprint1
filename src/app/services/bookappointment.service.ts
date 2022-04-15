@@ -10,31 +10,31 @@ export class BookappointmentService {
 
   doctorDetails=[{
     id:1,
-    doctorName:"Dr.Narendra varma",
+    doctorName:"Dr.Narendra Varma",
     doctorDetails:"Dermotologist",
     ConsultanceFee:500,
-    doctorImg: "C:\capgemini\Project\doctorAppointment\src\assets\img\doctor1img.jpg"
+    doctorImg:"https://thumbs.dreamstime.com/z/indian-doctor-28013008.jpg"
      },
      {
       id:2,
       doctorName:"Dr.Anjali Kumari",
       doctorDetails:"Gynocologist",
       ConsultanceFee:1000,
-      doctorImg:"C:\capgemini\Project\doctorAppointment\src\assets\img\doctor2img.png"
+      doctorImg:"https://visage-aesthetics.com/wp-content/uploads/2016/04/shutterstock-indian-doctor-.jpg"
      },
      {
       id:3,
       doctorName:"Dr.Abhijeet Singh",
       doctorDetails:"cardiologist",
       ConsultanceFee:500,
-      doctorImg:"C:\capgemini\Project\doctorAppointment\src\assets\img\doctor3img.jpg"
+      doctorImg:"https://thumbs.dreamstime.com/b/indian-doctor-21487084.jpg"
      },
      {
       id:4,
       doctorName:"Dr.Meena Pandey",
       doctorDetails:"Dentist",
       ConsultanceFee:1000,
-      doctorImg:"https://stock.adobe.com/in/search?k=indian%20doctors"
+      doctorImg:"https://thumbs.dreamstime.com/b/doctor-indian-38175791.jpg"
      }
     ]
 

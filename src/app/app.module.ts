@@ -8,10 +8,11 @@ import { NavbarComponent } from './Doctorappointment/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { GetDoctorComponent } from './doctors/get-doctor/get-doctor.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     LoginComponent,
     SignupComponent,
     GetDoctorComponent,
+    AppointmentComponent,
 
   ],
   imports: [
@@ -30,7 +32,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
